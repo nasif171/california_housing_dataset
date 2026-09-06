@@ -1,0 +1,27 @@
+# 🏠 California Housing Price Analysis & Risk Assessment
+
+## 📌 Overview
+This project performs Exploratory Data Analysis (EDA), feature engineering, and predictive modeling on the California Housing dataset. Using demographic and geographic data from census block groups, the project extracts key real estate insights, identifies socio-economic patterns, and predicts median house values using machine learning.
+
+## 🎯 Objectives
+* **Data Cleaning & Preprocessing:** Handle missing data, scale skewed continuous features, and fix data anomalies (e.g., target caps).
+* **Feature Engineering:** Create meaningful domain-specific ratios such as `rooms_per_household`, `bedrooms_per_room`, and `population_per_household`.
+* **Exploratory Data Analysis:** Analyze how location (`latitude`, `longitude`), median income, and population density impact property prices.
+* **Predictive Modeling:** Train and evaluate regression models (Linear Regression, Random Forest, XGBoost) to predict housing prices based on block characteristics.
+
+## 🛠️ Tech Stack
+* **Language:** Python
+* **Data Manipulation:** Pandas, NumPy
+* **Visualization:** Matplotlib, Seaborn
+* **Machine Learning:** Scikit-Learn, XGBoost
+
+## 📊 Key Insights & Ratios
+* **`rooms_per_household`**: Evaluates overall living space and property density.
+* **`bedrooms_per_room`**: Identifies house layout efficiency and overcrowding risk.
+* **`median_income`**: Serves as the primary driver for predicting `median_house_value`.
+* **Geographic Coordinates**: Highlights the strong non-linear influence of coastal proximity on real estate valuation.
+
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/nasif171/california-housing-analysis.git](https://github.com/nasif171/california-housing-analysis.git)
